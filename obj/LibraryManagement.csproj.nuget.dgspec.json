@@ -1,31 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\LibraryManagement\\LibraryManagement.csproj": {}
+    "D:\\Projects\\.net\\LibraryManagementSystem\\LibraryManagement.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\LibraryManagement\\LibraryManagement.csproj": {
+    "D:\\Projects\\.net\\LibraryManagementSystem\\LibraryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\LibraryManagement\\LibraryManagement.csproj",
+        "projectUniqueName": "D:\\Projects\\.net\\LibraryManagementSystem\\LibraryManagement.csproj",
         "projectName": "LibraryManagement",
-        "projectPath": "D:\\Projects\\LibraryManagement\\LibraryManagement.csproj",
+        "projectPath": "D:\\Projects\\.net\\LibraryManagementSystem\\LibraryManagement.csproj",
         "packagesPath": "C:\\Users\\Hussain\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\LibraryManagement\\obj\\",
+        "outputPath": "D:\\Projects\\.net\\LibraryManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Hussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +47,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Colorful.Console": {
+              "target": "Package",
+              "version": "[1.2.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
