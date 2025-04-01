@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3a6J0A76no8=",
+  "dgSpecHash": "vW19sVElqEc=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\.net\\LibraryManagementSystem\\LibraryManagement.csproj",
+  "projectFilePath": "D:\\Projects\\LibraryManagement\\LibraryManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hussain\\.nuget\\packages\\colorful.console\\1.2.15\\colorful.console.1.2.15.nupkg.sha512",
     "C:\\Users\\Hussain\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

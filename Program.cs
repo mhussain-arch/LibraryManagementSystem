@@ -84,6 +84,15 @@ public class Library
             count++;
         }
     }
+
+    public string? SearchBooks()
+    {
+        Console.Write("Search for a book: ");
+        string searchString = Console.ReadLine();
+        return this._booksCollection.Find(s => {
+            return s.ToLower().Equals(searchString.ToLower());
+        });
+    }
 }
 
 public class Program
@@ -95,12 +104,16 @@ public class Program
         libraryManagement.GreetUser();
         while (!exitStatus)
         {
-            Console.Clear();
+            // Console.Clear();
             string mode = "0";
             Console.WriteLine("1. Add a book");
             Console.WriteLine("2. Delete a book");
             Console.WriteLine("3. List available books");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. Search for a book");
+            Console.WriteLine("5. Borrow a book");
+            Console.WriteLine("6. Flag book as check-in or check-out");
+            Console.WriteLine("7. Exit");
+            Console.Write(": ");
             mode = Console.ReadLine();
             switch (mode)
             {
@@ -114,6 +127,17 @@ public class Program
                     libraryManagement.ListBooks();
                     break;
                 case "4":
+                    string? queriedBook = libraryManagement.SearchBooks();
+                    if (queriedBook != null)
+                    {
+                        Console.WriteLine("\"{0}\" is available!", queriedBook);
+                    }
+                    else
+                    {
+                        Console.WriteLine("The book is not available.");
+                    }
+                    break;
+                case "7":
                     exitStatus = true;
                     break;
                 default:
