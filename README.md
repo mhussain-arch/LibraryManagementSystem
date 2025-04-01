@@ -13,7 +13,7 @@ Remove a book by its title.
 
 Display the current list of books available in the library.
 
-With the help of Microsoft Copilot, you will build this program using string variables, conditional statements, and loops.
+With the help of ~~Microsoft Copilot~~ your brain's intellectual ability to build logic, you will build this program using string variables, conditional statements, and loops.
 
 Steps
 
